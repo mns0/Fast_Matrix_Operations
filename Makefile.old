@@ -1,0 +1,5 @@
+all : 
+	go build matrix.go
+
+clean: 
+	rm -f matrix
