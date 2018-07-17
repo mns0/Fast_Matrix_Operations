@@ -218,8 +218,8 @@ func QR(inMat Matrix) (Matrix, Matrix) {
 		for idx, ele := range y {
 			y[idx] = ele + sign*y_sumSq
 		}
-		////get w whose var name is y
-		////reusing same variable
+		//get w whose var name is y
+		//reusing same variable
 		//v = 1/||w||
 		y_sumSq = sumSq(y)
 		for idx, ele := range y {
